@@ -1,43 +1,41 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: "MK-ch@0t!c_Syst&m"
+author: "Gianmario `MonKeed` Merisio"
+description: "Copyright ©2024 Gianmario Merisio.
+  Unless otherwise noted, all blog posts, photos, graphics, presentations, and other media are licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1'>CC BY-NC-SA 4.0</a>.
+  Unless otherwise noted, all code snippets are available under the <a href='https://unlicense.org/'>Unlicense</a>.
+  Powered by <a href='https://jekyllrb.com/'>Jekyll</a> with <a href='https://jekyllthemes.io/theme/contrast'>Constrast</a> theme.
+  Hosted by <a href='https://pages.github.com/'>GitHub Pages</a>. 
+  Reach me out on my socials or via e-mail down below."
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MK-ch@0t!c_Syst&m
-email: gianmariomerisio@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Gianmario 'MonKeed' Merisio, welcome and enjoy the visit :D!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: 
-github_username:  MonKeed
-instagram_username: monkeed_5e
-linkedin_username: gianmario-merisio
+# Layout
+show_excerpts: true  # show article excerpts on the home page
+show_frame: true  # adds a gray frame to the site
+show_sidebar: false  # show a sidebar instead of the usual header
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+# Menu
+navigation:  # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.html"}
+  - {file: "archive.html"}
+  # - {title: "Publications"}
+  # - {file: "about.md"}
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+external:  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:gianmariomerisio@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/MonKeed"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/gianmario-merisio/"}
+  - {title: Instagram, icon: instagram, url: "https://www.instagram.com/monkeed_5e/"}
+  - {title: X, icon: square-x-twitter, url: "https://twitter.com/MonKeed"}
+  - {title: OrcID, icon: orcid, url: "https://orcid.org/0000-0001-8806-7952"}
+  - {title: ResearchGate, icon: researchgate, url: "https://www.researchgate.net/profile/Gianmario-Merisio"}
+  - {title: GoogleScholar, icon: google-scholar, url: "https://scholar.google.com/citations?user=nrEKPxYAAAAJ&hl=en"}
+
+comments:
+#  disqus_shortname: ""  # see https://disqus.com/
+#  isso_domain: ""  # see https://posativ.org/isso/
+
+# plugins:
+#  - jekyll-feed

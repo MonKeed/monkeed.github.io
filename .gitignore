@@ -1,4 +1,16 @@
-_site/
-.sass-cache/
-.jekyll-metadata/
-.vscode/
+# Jekyll
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_site
+
+# Gems
+Gemfile.lock
+.bundle
+*.gem
+
+# VS Code
+.vscode
+
+# Mac OS
+.DS_Store
